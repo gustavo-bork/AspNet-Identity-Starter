@@ -19,9 +19,6 @@ builder.Services.AddIdentity<AppUser, IdentityRole>()
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-// app.UseExceptionHandler();
-
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -42,5 +39,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapDefaultEndpoints();
-app.MapRegisterUserEndpoint();
+app
+    .MapRegisterUserEndpoint()
+    .MapLoginUserEndpoint();
 app.Run();

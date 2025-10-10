@@ -5,12 +5,12 @@ namespace aspnet_identity_starter.ApiService.Endpoints;
 
 public static class RegisterUserEndpoint
 {
-    public record Request(string Email, string Initials, string Password, bool EnableNotifications = false);
+    public record RegisterRequest(string Email, string Initials, string Password, bool EnableNotifications = false);
 
-    public static void MapRegisterUserEndpoint(this WebApplication app)
+    public static WebApplication MapRegisterUserEndpoint(this WebApplication app)
     {
         app.MapPost("register", async (
-              Request request,
+              RegisterRequest request,
               ApplicationDbContext dbContext,
               UserManager<AppUser> userManager) =>
         {
@@ -42,5 +42,7 @@ public static class RegisterUserEndpoint
 
             return Results.Ok(user);
         });
+
+        return app;
     }
 }
