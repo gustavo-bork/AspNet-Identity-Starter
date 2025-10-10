@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-identity-starter.AppHost", "aspnet-identity-starter.AppHost\aspnet-identity-starter.AppHost.csproj", "{BD96C389-5B2A-4789-A49A-10A389373370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-identity-starter.ServiceDefaults", "aspnet-identity-starter.ServiceDefaults\aspnet-identity-starter.ServiceDefaults.csproj", "{B638E878-D4D2-494A-8C10-03E8E280CD05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspnet-identity-starter.ApiService", "aspnet-identity-starter.ApiService\aspnet-identity-starter.ApiService.csproj", "{43693885-C715-4803-A19C-59903AC5CC37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD96C389-5B2A-4789-A49A-10A389373370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD96C389-5B2A-4789-A49A-10A389373370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD96C389-5B2A-4789-A49A-10A389373370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD96C389-5B2A-4789-A49A-10A389373370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B638E878-D4D2-494A-8C10-03E8E280CD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B638E878-D4D2-494A-8C10-03E8E280CD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B638E878-D4D2-494A-8C10-03E8E280CD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B638E878-D4D2-494A-8C10-03E8E280CD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43693885-C715-4803-A19C-59903AC5CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43693885-C715-4803-A19C-59903AC5CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43693885-C715-4803-A19C-59903AC5CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43693885-C715-4803-A19C-59903AC5CC37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20B719BA-8180-4577-99F2-50684812DC92}
+	EndGlobalSection
+EndGlobal
