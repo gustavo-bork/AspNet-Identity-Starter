@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="aspnet-identity-starter.ApiService/aspnet-identity-starter.ApiService.csproj" />
+  <Project Path="aspnet-identity-starter.AppHost/aspnet-identity-starter.AppHost.csproj" />
+  <Project Path="aspnet-identity-starter.ServiceDefaults/aspnet-identity-starter.ServiceDefaults.csproj" />
+</Solution>
